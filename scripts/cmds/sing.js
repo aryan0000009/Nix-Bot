@@ -70,7 +70,7 @@ module.exports = {
             audio: b.readFileSync(p), 
             mimetype: 'audio/mpeg', 
             fileName: o,
-            ptt: false // Set to true if you want it as a voice note
+            ptt: false
         },
         { quoted: f }
       );
